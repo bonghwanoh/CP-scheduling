@@ -13,6 +13,7 @@ In order to employ the CP-scheduling, overwrite the patch code on the linux impl
  
 Then, you can use CP-scheduling when mptcp enables 'fullmech' state. This means default version is cannot applied after the patch is applied.
 
+Bong-Hwan and Oh Jaiyong Lee, all rights reserved
 
 
 
