@@ -3,7 +3,7 @@ constraint-based scheduling code for MPTCP linux implementation version 0.89
 
 This is patch code of Constraint-based Proactive Scheduling (CP-scheduling) for MPTCP linux implementation.
 Currently, this patch version is incomplete so it may be suitable for research state. 
-Note that current code only considers the 2 path case. (currently i conducts tests for the CP-scheduling with more than 2 paths)
+Note that current code only considers the 2 path case. (currently i will plan to conduct various tests for the CP-scheduling with more than 2 paths)
 
 
 In order to employ the CP-scheduling, overwrite the patch code on the linux implementation as the following steps.
