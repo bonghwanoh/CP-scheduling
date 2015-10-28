@@ -141,7 +141,7 @@ int CP_update_subflow_info(struct CP_subflow_info *cp_info_p, struct mptcp_cb *m
 // inappropriate routing can be generated.
 // although inappropriate routing does not causes the serious problems, 
 // this code may correct the inappropriate transmission. by bh oh.
-///*
+/*
 		if ( tp1->mptcp->path_index == 2 || tp1->mptcp->path_index == 3 )
 		{
 			cp_info_p->RTT_subflow[subflow_N] = 9999;
@@ -157,9 +157,9 @@ int CP_update_subflow_info(struct CP_subflow_info *cp_info_p, struct mptcp_cb *m
 				cp_info_p->RTT_subflow[subflow_N] = tp1->srtt;
 			}
 		}
-//*/ 
+*/ 
 // this codes should be disabled when above codes are enalbed.
-/*
+///*
 		if ( tp1->srtt == 0 )
 		{
 			cp_info_p->RTT_subflow[subflow_N] = 9999;
@@ -168,7 +168,7 @@ int CP_update_subflow_info(struct CP_subflow_info *cp_info_p, struct mptcp_cb *m
 		{
 			cp_info_p->RTT_subflow[subflow_N] = tp1->srtt;
 		}
-*/
+//*/
 
 		cp_info_p->RTT_subflow_index[subflow_N] = tp1->mptcp->path_index;
 		cp_info_p->CWND_subflow[subflow_N] = tp1->snd_cwnd;
